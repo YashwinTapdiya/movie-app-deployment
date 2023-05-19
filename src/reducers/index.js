@@ -8,7 +8,7 @@ const initialMoviesState = {
 };
 
 export function movies ( state = initialMoviesState , action){
-  console.log("MOVIE REDUCER")
+  //console.log("MOVIE REDUCER")
   // if(action.type === ADD_MOVIES){
   //   return {
   //     ...state,

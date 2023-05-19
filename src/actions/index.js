@@ -43,7 +43,7 @@ export function addMovieToList(movie) {
         fetch(url)
         .then(Response=> Response.json())
         .then(movie =>{
-            console.log(movie);
+            //console.log(movie);
 
             //dipatch an action
             dispatch(addMovieSearchResult(movie));
